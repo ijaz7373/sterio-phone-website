@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Setup guide — Sterio Phone</title>
+<meta name="description" content="Step-by-step setup for Sterio Phone: prepare the Android host with Shizuku, install the iPhone app, pair with a QR code, and test your first call.">
+<meta name="theme-color" content="#0A0F1F">
+<link rel="canonical" href="https://ijaz7373.github.io/sterio-phone-website/setup.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Sterio Phone">
+<meta property="og:title" content="Setup guide — Sterio Phone"><meta property="og:description" content="Step-by-step setup for Sterio Phone: prepare the Android host with Shizuku, install the iPhone app, pair with a QR code, and test your first call."><meta property="og:url" content="https://ijaz7373.github.io/sterio-phone-website/setup.html">
+<meta property="og:image" content="https://ijaz7373.github.io/sterio-phone-website/assets/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add('js')</script>
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap nav">
+<a class="brand" href="index.html" aria-label="Sterio Phone — home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4DF0B8"/><stop offset="1" stop-color="#8C7DFF"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#lg)"/><path d="M21.6 18.9v1.8a1.2 1.2 0 0 1-1.3 1.2 11.9 11.9 0 0 1-5.2-1.8 11.7 11.7 0 0 1-3.6-3.6 11.9 11.9 0 0 1-1.8-5.2 1.2 1.2 0 0 1 1.2-1.3h1.8a1.2 1.2 0 0 1 1.2 1c.1.6.2 1.1.4 1.7a1.2 1.2 0 0 1-.3 1.3l-.8.8a9.6 9.6 0 0 0 3.6 3.6l.8-.8a1.2 1.2 0 0 1 1.3-.3c.5.2 1.1.3 1.7.4a1.2 1.2 0 0 1 1 1.2z" fill="#06101F"/><path d="M19 8.2a5.8 5.8 0 0 1 4.8 4.8M19 11.4a2.6 2.6 0 0 1 1.6 1.6" fill="none" stroke="#06101F" stroke-width="1.8" stroke-linecap="round"/></svg><span>Sterio Phone</span></a>
+<ul class="nav-links" id="nav-links"><li><a href="how-it-works.html">How it works</a></li><li><a href="features.html">Features</a></li><li><a href="setup.html" aria-current="page">Setup</a></li><li><a href="security.html">Privacy &amp; security</a></li><li><a href="faq.html">FAQ</a></li></ul>
+<div class="nav-cta"><a class="btn btn-ghost btn-sm" href="support.html">Support</a><a class="btn btn-primary btn-sm" href="download.html">Get early access</a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span><span></span></button></div>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="wrap">
+<div class="crumbs"><a href="index.html">Home</a> / Setup guide</div>
+<h1>From two phones to one phone line</h1><p class="lead">Set up the Android phone first, then the iPhone, then pair them and make a test call.</p></div></section>
+<section class="sec"><div class="wrap narrow">
+<div class="callout info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p><strong>Early access guide.</strong> Download the Android app from the <a href='download.html'>early access page</a>; the iPhone app is shared by request.</p></div>
+<div style="height:18px"></div>
+<div class="callout info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p><strong>Before you begin:</strong> connect <strong>both phones to the same Wi-Fi network</strong>, temporarily. Android only lets you turn on Wireless debugging while it’s connected to Wi-Fi, and the two phones need to be on the same network to pair.</p></div>
+<div style="height:34px"></div>
+<div data-tabs>
+<div class="tabs" role="tablist" aria-label="Setup stage"><button class="tab" role="tab" id="s-a" aria-selected="true" aria-controls="sp-a">1 · Android phone</button><button class="tab" role="tab" id="s-i" aria-selected="false" tabindex="-1" aria-controls="sp-i">2 · iPhone</button><button class="tab" role="tab" id="s-p" aria-selected="false" tabindex="-1" aria-controls="sp-p">3 · Pair &amp; test</button></div>
+
+<div class="tabpanel" role="tabpanel" id="sp-a" aria-labelledby="s-a"><ol class="steps">
+<li><div><h3>Install the Sterio Phone host</h3><p>Download the APK from the <a href='download.html'>early access page</a> and open it. Android may ask you to allow installs from your browser or file manager.</p></div></li>
+<li><div><h3>Connect to Wi-Fi, then turn on Developer options and Wireless debugging</h3><p>First join the same Wi-Fi network as your iPhone (temporarily — Wireless debugging can’t be switched on without Wi-Fi). Then Settings → About phone → tap <em>Build number</em> seven times, and in Developer options turn <em>Wireless debugging</em> on.</p></div></li>
+<li><div><h3>Install and start Shizuku</h3><p>Sterio Phone needs a free helper app called <strong>Shizuku</strong>. Install it, start it with Wireless debugging, then approve Sterio Phone when asked. <a href='shizuku.html'><strong>Follow the full Shizuku guide →</strong></a></p><p class="note muted">After any Android reboot you need to start Shizuku again.</p></div></li>
+<li><div><h3>Open Sterio Phone and follow the guided setup</h3><p>Grant the phone, call-log, notification and battery permissions the app lists, then tap <strong>Start host</strong>. A persistent notification confirms it’s running.</p></div></li>
+</ol></div>
+
+<div class="tabpanel" role="tabpanel" id="sp-i" aria-labelledby="s-i" hidden><ol class="steps">
+<li><div><h3>Install the Sterio Phone iPhone app</h3><p>During early access we send you the iPhone app together with simple install instructions.</p></div></li>
+<li><div><h3>Trust the developer certificate</h3><p>Settings → General → VPN &amp; Device Management → trust the developer profile. Turn on Developer Mode if iOS asks.</p></div></li>
+<li><div><h3>Join the same network</h3><p>Connect the iPhone to the same Wi-Fi as the Android phone — or join the Android phone’s hotspot, which works anywhere there’s signal.</p></div></li>
+<li><div><h3>Open the app and accept the consent screens</h3><p>Allow Local Network and Microphone. Contacts are optional but give you caller names.</p></div></li>
+</ol></div>
+
+<div class="tabpanel" role="tabpanel" id="sp-p" aria-labelledby="s-p" hidden><ol class="steps">
+<li><div><h3>Pair</h3><p>In the iPhone app tap <em>Scan QR</em> and point it at the code on the Android app — or choose <em>Enter code</em> and type the short pairing code. The phones can also find each other automatically.</p></div></li>
+<li><div><h3>Check the Phone tab</h3><p>You should see the Android phone’s battery, signal and SIM status. That confirms the link is healthy.</p></div></li>
+<li><div><h3>Test a call</h3><p>Call your Android number from another phone. The iPhone should ring; tap Accept and talk. Then dial a friend from the keypad.</p></div></li>
+<li><div><h3>Keep it reliable</h3><p>Leave the Android phone charging with the host notification showing, and exempt it from battery optimisation. If something misbehaves, use <em>Share diagnostics</em> in the iPhone app and <a href="support.html">send it to us</a>.</p></div></li>
+</ol></div>
+</div></div></section>
+<section class="cta"><div class="wrap"><div class="cta-box reveal">
+<h2>Stuck on a step?</h2><p>Check the FAQ or write to us — early-access users get a reply from a real person.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="faq.html">Read the FAQ</a><a class="btn btn-ghost" href="support.html">Contact support</a></div>
+</div></div></section>
+
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="foot-grid">
+<div><a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4DF0B8"/><stop offset="1" stop-color="#8C7DFF"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#lg)"/><path d="M21.6 18.9v1.8a1.2 1.2 0 0 1-1.3 1.2 11.9 11.9 0 0 1-5.2-1.8 11.7 11.7 0 0 1-3.6-3.6 11.9 11.9 0 0 1-1.8-5.2 1.2 1.2 0 0 1 1.2-1.3h1.8a1.2 1.2 0 0 1 1.2 1c.1.6.2 1.1.4 1.7a1.2 1.2 0 0 1-.3 1.3l-.8.8a9.6 9.6 0 0 0 3.6 3.6l.8-.8a1.2 1.2 0 0 1 1.3-.3c.5.2 1.1.3 1.7.4a1.2 1.2 0 0 1 1 1.2z" fill="#06101F"/><path d="M19 8.2a5.8 5.8 0 0 1 4.8 4.8M19 11.4a2.6 2.6 0 0 1 1.6 1.6" fill="none" stroke="#06101F" stroke-width="1.8" stroke-linecap="round"/></svg><span>Sterio Phone</span></a>
+<p class="blurb">Use a SIM-less iPhone as a remote handset for the Android phone that holds your SIM.</p></div>
+<div><h4>Product</h4><ul><li><a href="how-it-works.html">How it works</a></li><li><a href="features.html">Features</a></li><li><a href="requirements.html">Requirements</a></li><li><a href="setup.html">Setup guide</a></li><li><a href="shizuku.html">Shizuku guide</a></li><li><a href="download.html">Early access</a></li></ul></div>
+<div><h4>Resources</h4><ul><li><a href="security.html">Privacy &amp; security</a></li><li><a href="faq.html">FAQ</a></li><li><a href="support.html">Support</a></li></ul></div>
+<div><h4>Legal</h4><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">Terms of use</a></li><li><a href="mailto:ijazkhan73786@gmail.com">Contact</a></li></ul></div>
+</div>
+<div class="foot-bottom"><span>© <span id="year">2026</span> Sterio Phone. All rights reserved.</span><span>No trackers. No cookies. No analytics on this site.</span></div>
+<p class="disclaimer">Sterio Phone is an independent project and is not affiliated with or endorsed by Apple Inc., Google LLC or any mobile carrier. iPhone and iOS are trademarks of Apple Inc. Android and Pixel are trademarks of Google LLC.</p>
+</div></footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>

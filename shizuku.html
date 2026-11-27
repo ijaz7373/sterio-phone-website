@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shizuku setup guide — Sterio Phone</title>
+<meta name="description" content="How to install and start Shizuku on your Android phone for Sterio Phone: download links, Developer options, Wireless debugging, pairing, starting, approving Sterio Phone, and troubleshooting.">
+<meta name="theme-color" content="#0A0F1F">
+<link rel="canonical" href="https://ijaz7373.github.io/sterio-phone-website/shizuku.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Sterio Phone">
+<meta property="og:title" content="Shizuku setup guide — Sterio Phone"><meta property="og:description" content="How to install and start Shizuku on your Android phone for Sterio Phone: download links, Developer options, Wireless debugging, pairing, starting, approving Sterio Phone, and troubleshooting."><meta property="og:url" content="https://ijaz7373.github.io/sterio-phone-website/shizuku.html">
+<meta property="og:image" content="https://ijaz7373.github.io/sterio-phone-website/assets/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add('js')</script>
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap nav">
+<a class="brand" href="index.html" aria-label="Sterio Phone — home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4DF0B8"/><stop offset="1" stop-color="#8C7DFF"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#lg)"/><path d="M21.6 18.9v1.8a1.2 1.2 0 0 1-1.3 1.2 11.9 11.9 0 0 1-5.2-1.8 11.7 11.7 0 0 1-3.6-3.6 11.9 11.9 0 0 1-1.8-5.2 1.2 1.2 0 0 1 1.2-1.3h1.8a1.2 1.2 0 0 1 1.2 1c.1.6.2 1.1.4 1.7a1.2 1.2 0 0 1-.3 1.3l-.8.8a9.6 9.6 0 0 0 3.6 3.6l.8-.8a1.2 1.2 0 0 1 1.3-.3c.5.2 1.1.3 1.7.4a1.2 1.2 0 0 1 1 1.2z" fill="#06101F"/><path d="M19 8.2a5.8 5.8 0 0 1 4.8 4.8M19 11.4a2.6 2.6 0 0 1 1.6 1.6" fill="none" stroke="#06101F" stroke-width="1.8" stroke-linecap="round"/></svg><span>Sterio Phone</span></a>
+<ul class="nav-links" id="nav-links"><li><a href="how-it-works.html">How it works</a></li><li><a href="features.html">Features</a></li><li><a href="setup.html">Setup</a></li><li><a href="security.html">Privacy &amp; security</a></li><li><a href="faq.html">FAQ</a></li></ul>
+<div class="nav-cta"><a class="btn btn-ghost btn-sm" href="support.html">Support</a><a class="btn btn-primary btn-sm" href="download.html">Get early access</a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span><span></span></button></div>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="wrap">
+<div class="crumbs"><a href="index.html">Home</a> / Shizuku guide</div>
+<h1>Install and start Shizuku, step by step</h1><p class="lead">Sterio Phone’s Android app uses Shizuku to carry call audio. Setting it up takes a few minutes, once — watch the 2-minute video below, or follow the written steps from download to your first successful start.</p></div></section>
+<section class="sec"><div class="wrap narrow guide">
+<div class="video-wrap reveal">
+<video controls preload="metadata" poster="assets/shizuku-poster.jpg" id="guide-video" aria-describedby="video-desc">
+<source src="assets/shizuku-guide.mp4" type="video/mp4">
+Your browser can’t play this video — follow the written steps below instead.</video>
+<p id="video-desc" class="muted" style="font-size:.9rem;margin:10px 0 14px">2-minute walkthrough with on-screen captions (no sound needed). The screens are illustrations — yours may look slightly different. Full written steps are below.</p>
+<div class="chaps"><button type="button" class="chap" data-seek="0">Intro <span>0:00</span></button><button type="button" class="chap" data-seek="12">Install Shizuku <span>0:12</span></button><button type="button" class="chap" data-seek="32">Developer options <span>0:32</span></button><button type="button" class="chap" data-seek="47">Wireless debugging <span>0:47</span></button><button type="button" class="chap" data-seek="55">Pairing <span>0:55</span></button><button type="button" class="chap" data-seek="78">Start Shizuku <span>1:18</span></button><button type="button" class="chap" data-seek="85">Approve Sterio Phone <span>1:25</span></button><button type="button" class="chap" data-seek="99">After a restart <span>1:39</span></button><button type="button" class="chap" data-seek="106">Quick fixes <span>1:46</span></button></div></div>
+<div class="toc reveal"><strong>On this page</strong><ul style="list-style:none;padding:0;margin:10px 0 0">
+<li><a href="#what">What Shizuku is, and why Sterio Phone needs it</a></li>
+<li><a href="#install">1 · Install Shizuku</a></li>
+<li><a href="#developer">2 · Turn on Developer options</a></li>
+<li><a href="#wireless">3 · Turn on Wireless debugging</a></li>
+<li><a href="#pair">4 · Pair Shizuku (one time)</a></li>
+<li><a href="#start">5 · Start Shizuku</a></li>
+<li><a href="#approve">6 · Approve Sterio Phone</a></li>
+<li><a href="#reboot">After you restart your phone</a></li>
+<li><a href="#computer">Alternative: start from a computer</a></li>
+<li><a href="#trouble">Troubleshooting</a></li></ul></div>
+
+<h2 id="what">What Shizuku is, and why Sterio Phone needs it</h2>
+<p><strong>Shizuku</strong> is a free, open-source helper app that Sterio Phone needs on the Android phone. You set it up once.</p>
+<ul>
+<li>Shizuku is made by an independent developer (RikkaApps), not by us.</li>
+<li>You stay in control: it asks your permission before Sterio Phone can use it, and you can remove access any time.</li>
+<li>Starting it needs <strong>Android 11 or newer</strong> and a Wi-Fi connection. Sterio Phone itself needs Android 12 or newer.</li></ul>
+<div class="callout info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg><p><strong>Before you begin:</strong> connect <strong>both phones to the same Wi-Fi network</strong>, temporarily. Android doesn’t let you switch on Wireless debugging unless it’s connected to Wi-Fi, and your iPhone needs to be on the same network to pair with it.</p></div>
+<div class="callout info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p><strong>Official sources:</strong> Shizuku’s own <a href="https://shizuku.rikka.app/guide/setup/" target="_blank" rel="noopener">user manual</a> is the reference. This page walks through the same steps for Sterio Phone users.</p></div>
+
+<h2 id="install">1 · Install Shizuku</h2>
+<p>Install it on the <strong>Android phone that holds your SIM</strong> — the same phone that runs Sterio Phone. Pick any one of these:</p>
+<div class="grid g3" style="margin:20px 0 10px">
+<a class="card" href="https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></div><h3>Google Play</h3><p>Easiest. Search “Shizuku” or open the listing.</p></a>
+<a class="card" href="https://github.com/RikkaApps/Shizuku/releases" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><div class="icon v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></div><h3>GitHub releases</h3><p>Download the latest APK from the developer’s repository.</p></a>
+<a class="card" href="https://shizuku.rikka.app/download/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><div class="icon a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><h3>Official site</h3><p>The Shizuku website’s own download page.</p></a>
+</div>
+
+<h2 id="developer">2 · Turn on Developer options</h2>
+<ol class="steps">
+<li><div><h3>Show Developer options</h3><p>Open <strong>Settings → About phone</strong> and tap <strong>Build number</strong> about seven times until you see “You are now a developer”. On some phones Build number is under <em>Software information</em> or <em>Version</em>.</p></div></li>
+<li><div><h3>Find Developer options</h3><p>It’s now in <strong>Settings → System → Developer options</strong> (on some phones: <em>Additional settings → Developer options</em>). Turn the main switch <strong>on</strong>.</p></div></li>
+<li><div><h3>Check USB debugging is on (recommended)</h3><p>If Developer options shows <strong>USB debugging</strong>, leave it switched on — Shizuku’s own guide lists it as a prerequisite and says Shizuku can stop working if it is switched off. You’ll do the actual starting with <strong>Wireless debugging</strong> in the next step.</p></div></li>
+</ol>
+<div class="callout"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0zM12 9v4M12 17h.01"/></svg><p><strong>Realme, Oppo and OnePlus (ColorOS):</strong> also turn <strong>off</strong> “Permission monitoring” in Developer options. Otherwise Shizuku may not start properly. <strong>Xiaomi / POCO (MIUI, HyperOS):</strong> turn <strong>on</strong> “USB debugging (Security settings)”, which is separate from “USB debugging”.</p></div>
+
+<h2 id="wireless">3 · Turn on Wireless debugging</h2>
+<ol class="steps">
+<li><div><h3>Connect both phones to the same Wi-Fi</h3><p>Join the <strong>same Wi-Fi network</strong> on your Android phone and your iPhone — just for setup. If the Android phone isn’t on Wi-Fi, the Wireless debugging switch stays greyed out or turns itself off.</p></div></li>
+<li><div><h3>Open Wireless debugging</h3><p>In <strong>Developer options</strong>, tap <strong>Wireless debugging</strong> and switch it <strong>on</strong>. If Android asks “Allow wireless debugging on this network?”, choose <strong>Allow</strong>.</p></div></li>
+</ol>
+
+<h2 id="pair">4 · Pair Shizuku (one time only)</h2>
+<p>Pairing tells Android that Shizuku is allowed to use Wireless debugging. You only do this once.</p>
+<ol class="steps">
+<li><div><h3>Open Shizuku and choose pairing</h3><p>Open the Shizuku app and tap <strong>Start via Wireless debugging</strong>, then <strong>Pairing</strong>. If Shizuku shows a notification asking for the pairing code, leave it there.</p></div></li>
+<li><div><h3>Show the pairing code</h3><p>Go to <strong>Developer options → Wireless debugging</strong> and tap <strong>Pair device with pairing code</strong>. A six-digit code appears.</p></div></li>
+<li><div><h3>Enter the code in Shizuku’s notification</h3><p>Pull down the notification shade, tap <strong>Enter pairing code</strong> on Shizuku’s notification, and type the six digits. Shizuku confirms the pairing.</p><p class="note muted">Tip: keep the pairing-code dialog open while you do this — closing it cancels the pairing.</p></div></li>
+</ol>
+
+<h2 id="start">5 · Start Shizuku</h2>
+<ol class="steps">
+<li><div><h3>Tap Start</h3><p>In Shizuku, tap <strong>Start</strong> under “Start via Wireless debugging”. Wait a few seconds.</p></div></li>
+<li><div><h3>Check it’s running</h3><p>The Shizuku home screen should say <strong>“Shizuku is running”</strong>. If it doesn’t start, turn Wireless debugging off and on again, then tap Start once more.</p></div></li>
+</ol>
+
+<h2 id="approve">6 · Approve Sterio Phone</h2>
+<ol class="steps">
+<li><div><h3>Open Sterio Phone</h3><p>In the Sterio Phone Android app, follow the guided setup. When it asks for Shizuku access, a Shizuku permission dialog appears.</p></div></li>
+<li><div><h3>Allow</h3><p>Choose <strong>Allow all the time</strong> (or the equivalent). Then tap <strong>Start host</strong> in Sterio Phone. You’re done — head back to the <a href="setup.html">setup guide</a> to pair your iPhone.</p></div></li>
+</ol>
+
+<h2 id="reboot">After you restart your phone</h2>
+<p>Android stops Shizuku whenever the phone restarts. After a reboot, repeat only <strong>steps 3 and 5</strong> (turn on Wireless debugging on Wi-Fi, then tap <strong>Start</strong> in Shizuku). You don’t need to pair again. Then open Sterio Phone and tap <strong>Start host</strong>.</p>
+
+<h2 id="computer">Alternative: start from a computer</h2>
+<p>If Wireless debugging won’t cooperate, Shizuku’s official manual describes starting it from a computer with a USB cable. Follow <a href="https://shizuku.rikka.app/guide/setup/" target="_blank" rel="noopener">the official user manual</a>, then continue from step 6 above.</p>
+
+<h2 id="trouble">Troubleshooting</h2>
+<div class="faq">
+<details id="t-search"><summary>Shizuku keeps saying “Searching for pairing service”</summary><div class="ans"><p>Let Shizuku run in the background. In your phone’s battery or app settings, set Shizuku to <strong>Unrestricted</strong> / allow background activity, and make sure it has local-network access. Many phones cut off an app’s network the moment it leaves the screen, and pairing needs that connection. Keep the pairing-code dialog open while you enter the code from the notification.</p></div></details>
+<details id="t-fail"><summary>It fails as soon as I tap “Enter pairing code”</summary><div class="ans"><p>On Xiaomi / POCO phones, switch the notification style to <strong>Android</strong> (Settings → Notifications → Notification shade). The inline reply field doesn’t work with the default style.</p></div></details>
+<details id="t-limited"><summary>It starts, but Sterio Phone says access is limited</summary><div class="ans"><p>Your phone maker may be restricting developer access. <strong>Realme / Oppo / OnePlus:</strong> turn off “Permission monitoring” in Developer options. <strong>Xiaomi / POCO:</strong> turn on “USB debugging (Security settings)”. <strong>Meizu:</strong> turn off “Flyme payment protection”. Then start Shizuku again.</p></div></details>
+<details id="t-stops"><summary>Shizuku stops by itself</summary><div class="ans"><p>Keep Shizuku allowed to run in the background, and don’t turn off USB debugging or Developer options. Under Developer options, set the default USB configuration to <strong>No data transfer / Charge only</strong>, and on Android 11+ turn on the option that disables the <strong>authorization timeout</strong>, if you see it. On Xiaomi phones, avoid the Security app’s scan feature, which can switch debugging off.</p></div></details>
+<details id="t-nowifi"><summary>Wireless debugging won’t turn on</summary><div class="ans"><p>Wireless debugging only works while the Android phone is connected to Wi-Fi. Connect <strong>both phones to the same Wi-Fi network</strong> temporarily (a phone hotspot from another device works too), then switch it on. If you have no Wi-Fi at all, see the computer option above.</p></div></details>
+<details id="t-reboot"><summary>Sterio Phone stopped working after my phone restarted</summary><div class="ans"><p>That’s expected: Shizuku stops on every restart. Turn Wireless debugging on, open Shizuku, tap <strong>Start</strong>, then tap <strong>Start host</strong> in Sterio Phone.</p></div></details>
+</div>
+<p class="muted" style="margin-top:28px">Shizuku is an independent open-source project and is not affiliated with Sterio Phone. See the <a href="https://shizuku.rikka.app/guide/setup/" target="_blank" rel="noopener">official user manual</a> for the latest instructions for your phone.</p>
+</div></section>
+<section class="cta"><div class="wrap"><div class="cta-box reveal">
+<h2>Shizuku running?</h2><p>Continue with the setup guide to pair your iPhone and make a test call.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="setup.html">Back to the setup guide</a><a class="btn btn-ghost" href="support.html">Need help?</a></div>
+</div></div></section>
+
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="foot-grid">
+<div><a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4DF0B8"/><stop offset="1" stop-color="#8C7DFF"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#lg)"/><path d="M21.6 18.9v1.8a1.2 1.2 0 0 1-1.3 1.2 11.9 11.9 0 0 1-5.2-1.8 11.7 11.7 0 0 1-3.6-3.6 11.9 11.9 0 0 1-1.8-5.2 1.2 1.2 0 0 1 1.2-1.3h1.8a1.2 1.2 0 0 1 1.2 1c.1.6.2 1.1.4 1.7a1.2 1.2 0 0 1-.3 1.3l-.8.8a9.6 9.6 0 0 0 3.6 3.6l.8-.8a1.2 1.2 0 0 1 1.3-.3c.5.2 1.1.3 1.7.4a1.2 1.2 0 0 1 1 1.2z" fill="#06101F"/><path d="M19 8.2a5.8 5.8 0 0 1 4.8 4.8M19 11.4a2.6 2.6 0 0 1 1.6 1.6" fill="none" stroke="#06101F" stroke-width="1.8" stroke-linecap="round"/></svg><span>Sterio Phone</span></a>
+<p class="blurb">Use a SIM-less iPhone as a remote handset for the Android phone that holds your SIM.</p></div>
+<div><h4>Product</h4><ul><li><a href="how-it-works.html">How it works</a></li><li><a href="features.html">Features</a></li><li><a href="requirements.html">Requirements</a></li><li><a href="setup.html">Setup guide</a></li><li><a href="shizuku.html">Shizuku guide</a></li><li><a href="download.html">Early access</a></li></ul></div>
+<div><h4>Resources</h4><ul><li><a href="security.html">Privacy &amp; security</a></li><li><a href="faq.html">FAQ</a></li><li><a href="support.html">Support</a></li></ul></div>
+<div><h4>Legal</h4><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">Terms of use</a></li><li><a href="mailto:ijazkhan73786@gmail.com">Contact</a></li></ul></div>
+</div>
+<div class="foot-bottom"><span>© <span id="year">2026</span> Sterio Phone. All rights reserved.</span><span>No trackers. No cookies. No analytics on this site.</span></div>
+<p class="disclaimer">Sterio Phone is an independent project and is not affiliated with or endorsed by Apple Inc., Google LLC or any mobile carrier. iPhone and iOS are trademarks of Apple Inc. Android and Pixel are trademarks of Google LLC.</p>
+</div></footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>

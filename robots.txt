@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ijaz7373.github.io/sterio-phone-website/sitemap.xml
